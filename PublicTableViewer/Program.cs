@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DekanatSuite_V2
+namespace PublicTableViewer
 {
     static class Program
     {

@@ -1,6 +1,6 @@
 ﻿namespace DekanatSuite_V2
 {
-    partial class Form1
+    partial class StartApp
     {
         /// <summary>
         /// Required designer variable.

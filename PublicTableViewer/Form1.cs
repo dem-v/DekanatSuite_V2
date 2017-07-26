@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DekanatSuite_V2
+namespace PublicTableViewer
 {
     public partial class Form1 : Form
     {
