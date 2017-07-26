@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseOnlineController
 {
-    class Program
+    class OnlineTransactionsBroker
     {
         static void Main(string[] args)
         {
