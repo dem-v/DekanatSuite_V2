@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddItemsToTable2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItemsToTable2.Designer.cs">
+      <DependentUpon>AddItemsToTable2.cs</DependentUpon>
+    </Compile>
     <Compile Include="LocalEditorAppMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +61,9 @@
     </Compile>
     <Compile Include="LocalEditorCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddItemsToTable2.resx">
+      <DependentUpon>AddItemsToTable2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LocalEditorAppMain.resx">
       <DependentUpon>LocalEditorAppMain.cs</DependentUpon>
     </EmbeddedResource>

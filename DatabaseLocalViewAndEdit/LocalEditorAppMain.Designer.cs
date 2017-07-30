@@ -43,6 +43,7 @@
             this.btnAddRecord.TabIndex = 0;
             this.btnAddRecord.Text = "Создать запись";
             this.btnAddRecord.UseVisualStyleBackColor = true;
+            this.btnAddRecord.Click += new System.EventHandler(this.btnAddRecord_Click);
             // 
             // dbSelector
             // 
